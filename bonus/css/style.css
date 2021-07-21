@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background:conic-gradient(red, green,blue,violet);
+}
 
 #lista{
     width: 20%;
