@@ -8,5 +8,5 @@ var output="";
 for(var i=0;i<lista_cognomi_ordinata.length;i++){
     output=output+"<li>"+ lista_cognomi_ordinata[i]+"</li>";
 }
-var position = lista_cognomi_ordinata.indexOf(nome_utente);
+var position = lista_cognomi_ordinata.indexOf(nome_utente)+1;
 document.getElementById("lista").innerHTML=output+"<li>"+ position+"</li>";

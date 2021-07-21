@@ -9,3 +9,7 @@
     margin: 50px auto;
     text-align: center;
 }
+
+ol li{
+    text-transform: capitalize;
+}
